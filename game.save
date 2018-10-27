@@ -1,0 +1,131 @@
+{
+    "objects": [
+        {
+            "id": "6ba7b810-9dad-11d1-80b4-00c04fd430c8",
+            "timer": {
+                "next_timestamp": 0
+            },
+            "position": {
+                "x": 3,
+                "y": 7
+            },
+            "health": 999999,
+            "ui": {
+                "character": 35,
+                "foreground": 8,
+                "background": 1
+            },
+            "passability": {
+                "type": 0,
+                "is_open": false
+            }
+        },
+        {
+            "id": "6ba7b810-9dad-11d1-80b4-12c04fd430d4",
+            "timer": {
+                "next_timestamp": 0
+            },
+            "position": {
+                "x": 2,
+                "y": 7
+            },
+            "health": 999999,
+            "ui": {
+                "character": 43,
+                "foreground": 8,
+                "background": 1
+            },
+            "passability": {
+                "type": 2,
+                "is_open": false
+            }
+        },
+        {
+            "id": "dc71d346-ac20-4f1b-be03-f51bd4eddff3",
+            "timer": {
+                "next_timestamp": 0
+            },
+            "health": 5,
+            "position": {
+                "x": 3,
+                "y": 2
+            },
+            "ui": {
+                "character": 104,
+                "foreground": 8,
+                "background": 1
+            },
+            "equipment": {
+                "chest_id": "2e46acef-4bc4-4dc3-8858-8cc03ec493d4"
+            },
+            "passability": {
+                "type": 0,
+                "is_open": false
+            }
+        },
+        {
+            "id": "b5d9c244-b17d-4845-bd56-07c710536008",
+            "timer": {
+                "next_timestamp": 0
+            },
+            "position": {
+                "x": 5,
+                "y": 5
+            },
+            "health": 999999,
+            "ui": {
+                "character": 64,
+                "foreground": 8,
+                "background": 1
+            },
+            "equipment": {
+                "primary_item_id": "a079f188-cd0c-4820-b198-6167cba43d86"
+            },
+            "passability": {
+                "type": 0,
+                "is_open": false
+            }
+        },
+        {
+            "id": "6da0648c-5fda-4d7a-a086-2f38b6e1fba0",
+            "timer": {
+                "next_timestamp": 0
+            },
+            "position": {
+                "x": 8,
+                "y": 3
+            },
+            "health": 999999,
+            "ui": {
+                "character": 64,
+                "foreground": 8,
+                "background": 1
+            },
+            "equipment": {
+                "primary_item_id": "a079f188-cd0c-4820-b198-6167cba43d86"
+            },
+            "passability": {
+                "type": 0,
+                "is_open": false
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "a079f188-cd0c-4820-b198-6167cba43d86",
+            "damage": {
+                "die_range": 4,
+                "roll_amount": 2,
+                "modifier": 1,
+                "type": 0
+            }
+        },
+        {
+            "id": "2e46acef-4bc4-4dc3-8858-8cc03ec493d4",
+            "armor": {
+                "melee_reduction": 3,
+                "range_reduction": 1
+            }
+        }
+    ]
+}
